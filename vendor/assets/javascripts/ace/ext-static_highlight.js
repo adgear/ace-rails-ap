@@ -4,7 +4,7 @@ define("ace/ext/static_highlight",["require","exports","module","ace/edit_sessio
 var EditSession = require("../edit_session").EditSession;
 var TextLayer = require("../layer/text").Text;
 var baseStyles = ".ace_static_highlight {\
-font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', 'Droid Sans Mono', monospace;\
+font-family: 'Menlo', 'Ubuntu Mono', 'Consolas', 'Courier', 'source-code-pro', 'Droid Sans Mono', monospace;\
 font-size: 12px;\
 }\
 .ace_static_highlight .ace_gutter {\
